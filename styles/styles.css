@@ -1,0 +1,41 @@
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+header { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    border-radius: 5px;
+    box-shadow: 10px, 10px, grey;
+}
+img {
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 10px, 10px, grey;
+}
+
+h1 {
+    color: white;
+    padding: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: teal;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+li {
+    padding: 3px;
+}
