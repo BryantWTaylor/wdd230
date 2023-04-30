@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+    max-width: 20em;
+    display: grid;
+    grid-template-columns: repeat(7fr);
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+header {
+    background-color: navy;
+    margin-bottom: 10px;
+    grid-column: 1/7;
+}
+
+main {
+    grid-column: 1/7;
+    display: grid;
+    grid-template-columns: repeat(7fr);
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+}
+
+h2 {
+    text-align: center;
+    color: beige;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(7fr);
+    background-color: oldlace;
+    
+}
+
+div {
+    background-color: navy;
+    border-radius: 5px 5px 0 0;
+    grid-column: 1/7;
+}
+
+h3 {
+    color: beige;
+    margin-left: 15px;
+}
+
+p {
+    grid-column: 1/7;
+    margin-left: 15px;
+}
+
+img {
+    display: block;
+    width: 18em;
+    grid-column: 2/6;
+}
+
+footer {
+    text-align: center;
+    grid-column: 1/7;
+    background-color: navy;
+    color: beige;
+    margin-top: 10px;
+}
