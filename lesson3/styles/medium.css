@@ -1,0 +1,13 @@
+@media screen and (min-width: 640px) {
+    nav {
+        flex-direction: row;
+    }
+
+    nav a {
+        font-size: 2em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+}

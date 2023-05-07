@@ -1,0 +1,138 @@
+body {
+    margin: 0 auto;
+    max-width: 960px;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+
+nav {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #7392B7;
+    margin-bottom: 15px;
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #D8E1E9;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-size: 1em;
+    font-family: 'Secular One', sans-serif;
+}
+
+nav a:hover {
+    background-color: #C5D5EA;
+    color: #7392B7;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+main {
+    background-color: #D8E1E9;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+
+h2 {
+    padding: 5px;
+}
+
+h3 {
+    text-align: center;
+    background-color: #759EB8;
+    border-radius: 5px;
+    font-size: .95rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5px;
+}
+
+h4 {
+    text-align: center;
+    background-color: #759EB8;
+    border-radius: 5px;
+    font-size: .95rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5px;
+    font-family: 'Secular One', sans-serif;
+}
+
+p {
+    padding: 5px;
+}
+
+li {
+    padding: 3px;
+}
+
+footer {
+    text-align: center;
+    grid-column: 1/7;
+    background-color: #7392B7;
+    color: #D8E1E9;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #7392B7;
+}
+
+.secondary {
+    background-color: #D8E1E9;
+}
+
+.accent1 {
+    background-color: #759EB8;
+}
+
+.accent2 {
+    background-color: #C5D5EA;
+}
+
+#headers {
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#content {
+    text-align: center;
+    font-size: 1.2em;
+}
