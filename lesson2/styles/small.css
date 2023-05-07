@@ -32,12 +32,17 @@ section {
     display: grid;
     grid-template-columns: repeat(7fr);
     background-color: oldlace;
-    
+    margin: 10px;
+    box-shadow: 0 0 2px black;
+    border-radius: 5px 5px 0 0;
+    outline: none;
 }
 
 div {
     background-color: navy;
+    box-shadow: 0 0 2px black;
     border-radius: 5px 5px 0 0;
+    outline: none;
     grid-column: 1/7;
 }
 
@@ -55,6 +60,8 @@ img {
     display: block;
     width: 18em;
     grid-column: 2/6;
+    box-shadow: 0 0 2px black;
+    outline: none;
 }
 
 footer {
@@ -63,4 +70,8 @@ footer {
     background-color: navy;
     color: beige;
     margin-top: 10px;
+}
+
+section p {
+    margin-right: 7px;
 }

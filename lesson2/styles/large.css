@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1425px) {
 
     body {
         max-width: 90em;
@@ -9,7 +9,7 @@
     main {
         display: grid;
         grid-template-columns: repeat(7fr);
-        grid-column-gap: 5px;
+        grid-column-gap: 15px;
     }
     
     #sec1 {
@@ -18,23 +18,19 @@
     }
 
     #sec1 img {
-        width: 28em;
+        width: 26em;
     }
 
     #sec2 {
         grid-column: 3/5;
         grid-row: 1/2;
-        grid-row: 1/2;
     }
     
     #sec2 img {
-        width: 28em;
+        width: 26em;;
     }
     
-    #content {
-        margin-bottom: 50px;
-    }
-    
+        
     #sec3 {
         grid-column: 5/7;
         grid-row: 1/2;
@@ -42,7 +38,10 @@
     }
     
     #sec3 img {
-        width: 28em;
+        width: 26em;
     }
 
+    #content {
+        margin-bottom: 50px;
+    }
 }
