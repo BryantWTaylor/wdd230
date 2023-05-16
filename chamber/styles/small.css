@@ -167,19 +167,17 @@ footer img {
     border-radius: 20px;
 }
 
-footer section {
+footer div {
     text-align: center;
+    margin: 10px;
 }
 
 .title1 {
     font-size: 17px;
 }
 
-footer section p {
+footer div p {
     margin: 5px;
-}
-footer section {
-    margin: 10px;
 }
 
 .join {
