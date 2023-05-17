@@ -9,14 +9,21 @@
         margin-right: -100px;
     }
 
+    #heading {
+        margin-left: 25px;
+    }
+
 
     #facebook {
-        margin-left: 100px;
+        margin-left: 50px;
         margin-top: 35px;
+        width: 35px;
     }
 
     #linkedin {
-        margin-top: 34px;
+        margin-top: 35px;
+        margin-left: 0;
+        width: 42px;
     }
 
     h1 {
