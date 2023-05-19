@@ -130,7 +130,12 @@ main {
 
 main div {
     box-shadow: 0 0 2px black;
-    height: 200px;
+    height: auto;
+}
+
+.hero img {
+    height: auto;
+    width: 30em;
 }
 
 main div p {
