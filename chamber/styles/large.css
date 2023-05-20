@@ -67,10 +67,10 @@
         height: 410px;
     }
 
-    .hero img {
+    /* .hero img {
         width: 700px;
         height: auto;
-    }
+    } */
 
     #spotlight {
         grid-column: 4/5;

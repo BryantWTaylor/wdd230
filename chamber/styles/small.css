@@ -130,12 +130,47 @@ main {
 
 main div {
     box-shadow: 0 0 2px black;
-    height: auto;
+    height: 200px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero p {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    color: #759EB8;
+    font-size: 26px;
+    text-shadow: 1px 1px 0 black;
+    background-color: #bbb;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+.heroBtn {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    text-align: center;
+    height: 25px;
+}
+
+.joinBtn {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #759EB8;
+    background-color: #333;
 }
 
 .hero img {
-    height: auto;
-    width: 30em;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 main div p {
